@@ -33,7 +33,7 @@ public class RailwayApplication {
 	public CommandLineRunner commandLineRunner() {
 		return args -> {
 			if (actionRepository.count() == 0) {
-				List<Action> collect = IntStream.rangeClosed(1, 100).mapToObj(
+				List<Action> collect = IntStream.rangeClosed(1, 20).mapToObj(
 						x -> new Action(
 								faker.app().name(),
 								faker.weather().description(),
