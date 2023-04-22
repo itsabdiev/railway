@@ -1,0 +1,1 @@
+select * from actions where to_tsvector(title || ' ' || description || ' ' || url) @@ (phraseto_tsquery('cl')::text || ':*')::tsquery = true;

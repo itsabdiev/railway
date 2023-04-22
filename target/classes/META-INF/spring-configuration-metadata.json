@@ -1,0 +1,22 @@
+{
+  "groups": [
+    {
+      "name": "spring.env.props",
+      "type": "com.plenka.railway.configuration.EnvironmentProperties",
+      "sourceType": "com.plenka.railway.configuration.EnvironmentProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "spring.env.props.issuer",
+      "type": "java.lang.String",
+      "sourceType": "com.plenka.railway.configuration.EnvironmentProperties"
+    },
+    {
+      "name": "spring.env.props.properties",
+      "type": "java.lang.String",
+      "sourceType": "com.plenka.railway.configuration.EnvironmentProperties"
+    }
+  ],
+  "hints": []
+}

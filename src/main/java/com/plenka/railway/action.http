@@ -1,0 +1,40 @@
+### Send POST request with body as parameters
+POST http://localhost:8080/api/actions
+Content-Type: application/json
+
+{
+  "id": 2,
+  "title": " KKhjhj ",
+  "description": "Complete chat application",
+  "status": "IDEA",
+  "contentType": "JOB",
+  "createdAt": "2023-04-20T22:30:01.0764882",
+  "updatedAt": null,
+  "url": "-"
+}
+
+### Send GET request
+GET http://localhost:8080/api/actions
+
+
+### Send GET request
+GET http://localhost:8080/api/actions/2
+
+
+### Send PUT request with body as parameters
+PUT http://localhost:8080/api/actions/1
+Content-Type: application/json
+
+{
+  "id": 1,
+  "title": "Working on project",
+  "description": "Complete chat application",
+  "status": "IDEA",
+  "contentType": "JOB",
+  "createdAt": "2023-04-20T22:30:01.0764882",
+  "updatedAt": "2023-04-20T23:30:01.0764882",
+  "url": "works fine"
+}
+
+### Send DELETE request
+DELETE http://localhost:8080/api/actions/1
